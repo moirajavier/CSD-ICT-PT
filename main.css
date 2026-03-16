@@ -1,11 +1,16 @@
+
+body {
+  font-family: Verdana;
+}
+
 header {
-	font-family: Arial;
+	font-family: cambria;
 
 }
 /*the dropbtn class can be used by all navbar buttons, and div class="dropdown" is needed to make a new button. 
 change background colors and font colors as necessary.*/
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #222222;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -33,8 +38,24 @@ change background colors and font colors as necessary.*/
   display: block;
 }
 
+.dropbtn-1 {
+  background-color: #EEC312;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #000000;}
+
+.dropdown:hover .dropbtn {color: #EEC312;}
+
+.dropdown:hover .dropbtn-1 {background-color: #b89609;}
+
+.dropdown:hover .dropbtn-1 {color: #000000;}
+
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
