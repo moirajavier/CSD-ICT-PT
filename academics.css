@@ -7,11 +7,28 @@ header {
 
 }
 
-.logo {
-    width: 65px;
-    height: 80px;
-    padding: 10px;
+/* make navbar items align horizontally */
+.navbar{
+    display:flex;
+    align-items:center;
 }
+
+/* remove inline-block so flexbox controls layout */
+.dropdown{
+    position: relative;
+}
+
+/* push menu items slightly away from logo */
+.dropdown{
+    margin-right:5px;
+}
+
+/* ensure logo stays at the far left */
+.logo{
+    height:50px;
+    margin-right:25px;
+}
+
 /*the dropbtn class can be used by all navbar buttons, and div class="dropdown" is needed to make a new button. 
 change background colors and font colors as necessary.*/
 .dropbtn {
@@ -63,6 +80,8 @@ change background colors and font colors as necessary.*/
 
 .dropdown:hover .dropbtn-1 {color: #000000;}
 
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+
 div img {
  	width: 400px;
  	height: 300px;
@@ -76,4 +95,5 @@ div img {
  div img:hover { 
   filter:grayscale(1);
   transform:scale(1.03);
+ }
 
